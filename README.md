@@ -1,48 +1,54 @@
-# Degen Token (ERC-20): Unlocking the Future of Gaming
+# Degen Token Smart Contract
 
-## Description
+This repository contains the smart contract for the **Degen Token** (DGN) on the **Avalanche Fuji Testnet**. The token is an **ERC-20** token that is used within a gaming environment to reward players, allow them to transfer tokens, redeem in-game items, and burn tokens they no longer need.
 
-Welcome to the Degen Token smart contract – an ERC-20 token designed to bring exciting features to the gaming world.
+## Overview
 
-The contract has five functions: 
-- Minting Tokens
-- Burning Tokens
-- Transferring Tokens
-- Redeeming Tokens
-- Checking Token Balances
+The **Degen Token (DGN)** is an ERC-20 token used in the **Degen Gaming** platform. The contract includes several key features:
 
-## Getting Started
+- **Minting**: The platform (contract owner) can mint tokens and distribute them as rewards to players.
+- **Transferring**: Players can transfer tokens to others in the system.
+- **Redeeming**: Players can redeem tokens for in-game TikTok-themed items.
+- **Burning**: Players can burn tokens to remove them from circulation.
+- **Checking Balances**: Players can check their token balances at any time.
 
-### Executing program
+## Smart Contract Features
 
-To interact with the Degen Token smart contract using Remix, Metamask, and Snowtrace on the Avalanche FujiTest network, follow these step-by-step instructions:
+1. Minting Tokens
+- Minting can only be done by the contract owner (Degen Gaming platform).
+- This is achieved using the mintTokens function.
 
-1. Deploy the Contract:
+2. Transferring Tokens
+- Any player can transfer their tokens to another player using the transferTokens function.
 
-- Open Remix IDE and deploy the Degen Token contract. Ensure you are connected to the Avalanche FujiTest network in Remix.
-- Confirm the deployment transaction using Metamask.
+3. Redeeming Tokens
+- Players can redeem tokens for TikTok-themed in-game items.
+- Examples of items available for redemption:
+    TikTok Video Filter – 5 DGN
+    Exclusive TikTok Sticker – 10 DGN
+    TikTok Coin Boost – 20 DGN
+    TikTok Custom Sound – 30 DGN
+    Premium TikTok Profile Theme – 50 DGN
+- The tokens are burned when redeemed.
 
-2. Mint Tokens:
+4. Burning Tokens
+- Players can burn their tokens using the burnTokens function to remove them from circulation.
 
-- After deployment, as the contract owner, mint new tokens to specific addresses.
-- Use the mint function in Remix, providing the recipient's address and the amount of tokens to mint.
+5. Checking Token Balance
+- Players can check their balance at any time using the checkBalance function.
 
-3. Transfer Tokens:
+## Conclusion
+Conclusion
+In this project, we successfully followed the instructions to:
+1. Create the Degen Token (DGN) as an ERC-20 token with features like minting, transferring, redeeming, burning, and checking balances.
+2. Deploy the contract to the Avalanche Fuji Testnet.
+3. Test the contract's core functionalities.
+4. Verify the smart contract on Snowtrace for transparency and security.
 
-- Users can transfer tokens between addresses using the transferTokens function.
-- Specify the recipient's address and the amount of tokens to transfer.
+### Author:
+Neal Tracy D. Jestingor | 202111095@fit.edu.ph
 
-4. Redeem Tokens:
+### License
+This project is licensed under the MIT License.
 
-- Redeem tokens for in-game items using the redeemTokens function. Connect to Avalanche FujiTest in Remix for a realistic scenario.
-- Provide the item ID corresponding to the in-game item you wish to redeem.
 
-5. Check Token Balances:
-
-- Users can check their token balances using the checkTokenBalance function in Remix.
-- Input the address for which you want to check the token balance.
-
-## Author
-
-Kyle Español
-[@kylekce](https://github.com/kylekce)
