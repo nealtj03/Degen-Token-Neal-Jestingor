@@ -24,11 +24,7 @@ The **Degen Token (DGN)** is an ERC-20 token used in the **Degen Gaming** platfo
 3. Redeeming Tokens
 - Players can redeem tokens for TikTok-themed in-game items.
 - Examples of items available for redemption:
-    TikTok Video Filter – 5 DGN
-    Exclusive TikTok Sticker – 10 DGN
-    TikTok Coin Boost – 20 DGN
-    TikTok Custom Sound – 30 DGN
-    Premium TikTok Profile Theme – 50 DGN
+    TikTok Video Filter – 5 DGN, Exclusive TikTok Sticker – 10 DGN, TikTok Coin Boost – 20 DGN, TikTok Custom Sound – 30 DGN, Premium TikTok Profile Theme – 50 DGN
 - The tokens are burned when redeemed.
 
 4. Burning Tokens
